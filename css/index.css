@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:wght@100;200;300;400;600&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  font-size: 10px;
+}
+p,
+ul,
+li,
+th,
+td,
+caption {
+  font-size: 15px;
+}
+caption {
+  padding: 1rem;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  /* background-color: blue; */
+  padding: 1.5rem;
+}
+img {
+  width: 500px;
+}
+table {
+  margin: 1rem 0;
+}
+table,
+th,
+td {
+  border: 1px solid rgb(252, 10, 10);
+  border-collapse: collapse;
+}
+th{
+  background-color: black;
+  color: white;
+}
+th,
+td {
+  padding: 1rem 1.5rem;
+}
+.padding-1rem {
+  padding: 1rem;
+}
+.margin-top-2rem {
+  margin-top: 2rem;
+}
+.margin-bottom-5rem {
+  margin-bottom: 5rem;
+}
+
+.border-bottom {
+  border-bottom: 1px solid white;
+}
+
+.container {
+  padding: 1rem;
+}
+.container2 {
+  max-width: 1350px;
+  margin: 0 auto;
+  /* background-color: black; */
+}
+.default-size {
+  max-width: 750px;
+}
+.default-percentage {
+  width: 100%;
+}
+.default-percentage1 {
+  width: 50%;
+}
+.font-size-15px {
+  font-size: 1.5rem;
+}
+.font-size-20px {
+  font-size: 20px;
+}
+.font-size-17px {
+  font-size: 17px;
+}
+.font-bold {
+  font-weight: bold;
+}
+.align-center {
+  text-align: center;
+}
+.container80 {
+  width: 80%;
+  margin: 5px auto;
+}
+.display-flex {
+  display: flex;
+}
+.gap {
+  gap: 0.5rem;
+}
